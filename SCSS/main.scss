@@ -319,6 +319,76 @@ h1.company-name {
   }
 }
 
+//plans
+.plans {
+  padding: 6em 2em;
+  background-color: $darker;
+
+  &__box {
+    margin: 1em 0;
+    padding: 2em 1em;
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: $dark;
+
+    &:hover {
+      background-color: $darker;
+      border: 1px solid $gold;
+    }
+  }
+
+  &__item {
+    margin: 1em 0;
+  }
+  &__item-icon {
+    width: 50px;
+  }
+  &__item-name {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    font-size: 1.8rem;
+    color: $gold;
+  }
+}
+
+//newsletter
+.newsletter {
+  padding: 8em 2em;
+  background-color: rgb(73, 204, 221);
+  text-align: center;
+
+  &__text {
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  &__form {
+    input {
+      margin-bottom: 1em;
+      padding: 1em;
+      width: 100%;
+      background-color: $white;
+      border: 1px solid transparent;
+    }
+
+    button {
+      padding: 1em;
+      border: 1px solid $dark;
+      background: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        color: rgb(73, 204, 221);
+        background-color: $dark;
+      }
+    }
+  }
+}
+
 //MEDIA
 @media (min-width: 576px) {
   .info {
@@ -361,7 +431,7 @@ h1.company-name {
       }
       &--three {
         top: 36%;
-        left: 15%;
+        left: 35%;
         width: 10%;
         animation: rotate-left 70s infinite linear;
       }
@@ -380,6 +450,45 @@ h1.company-name {
     &__card {
       grid-column: span 3;
       grid-row: auto;
+    }
+  }
+
+  .plans {
+    padding: 8em 2em;
+    &__box {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: center;
+    }
+
+    &__item {
+      margin: 0 1em;
+    }
+    &__item-name {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .newsletter {
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+
+    &__text {
+      font-size: 3rem;
+      margin-bottom: 0;
+    }
+
+    &__form {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      gap: 20px;
+    }
+    input {
+      margin-bottom: 0;
     }
   }
 }

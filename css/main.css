@@ -307,6 +307,65 @@ h1.company-name {
   display: none;
 }
 
+.plans {
+  padding: 6em 2em;
+  background-color: #181717;
+}
+.plans__box {
+  margin: 1em 0;
+  padding: 2em 1em;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: #252525;
+}
+.plans__box:hover {
+  background-color: #181717;
+  border: 1px solid #d4c587;
+}
+.plans__item {
+  margin: 1em 0;
+}
+.plans__item-icon {
+  width: 50px;
+}
+.plans__item-name {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-size: 1.8rem;
+  color: #d4c587;
+}
+
+.newsletter {
+  padding: 8em 2em;
+  background-color: rgb(73, 204, 221);
+  text-align: center;
+}
+.newsletter__text {
+  padding: 1em;
+  margin-bottom: 1em;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.newsletter__form input {
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+.newsletter__form button {
+  padding: 1em;
+  border: 1px solid #252525;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.newsletter__form button:hover {
+  color: rgb(73, 204, 221);
+  background-color: #252525;
+}
+
 @media (min-width: 576px) {
   .info {
     grid-template-areas: "title box" "title box" "title box";
@@ -341,7 +400,7 @@ h1.company-name {
   }
   .info__bg-icon--three {
     top: 36%;
-    left: 15%;
+    left: 35%;
     width: 10%;
     animation: rotate-left 70s infinite linear;
   }
@@ -359,6 +418,38 @@ h1.company-name {
   .cards__card {
     grid-column: span 3;
     grid-row: auto;
+  }
+  .plans {
+    padding: 8em 2em;
+  }
+  .plans__box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+  }
+  .plans__item {
+    margin: 0 1em;
+  }
+  .plans__item-name {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .newsletter__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .newsletter__text {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  .newsletter__form {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+  }
+  .newsletter input {
+    margin-bottom: 0;
   }
 }
 @media (min-width: 992px) {
