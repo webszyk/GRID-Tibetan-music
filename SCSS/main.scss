@@ -101,7 +101,7 @@ h1.company-name {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  &__arow {
+  &__arrow {
     display: none;
   }
 
@@ -389,6 +389,101 @@ h1.company-name {
   }
 }
 
+//galery
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+
+  img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+
+    &:nth-child(odd) {
+      display: none;
+    }
+  }
+}
+
+.footer {
+  &__bottom-text {
+    text-align: center;
+    padding: 3em 1em;
+    border-top: 1px solid $darker;
+    font-size: 1.8rem;
+  }
+}
+
+//contact
+.contact {
+  padding: 6em 2em;
+
+  &__form {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  &__form-box {
+    label {
+      display: block;
+      margin-bottom: 0.5em;
+      font-size: 2rem;
+    }
+    textarea {
+      max-width: 100%;
+      width: 100%;
+      min-width: 100%;
+    }
+
+    input,
+    textarea {
+      padding: 1em 2em;
+      margin-bottom: 2em;
+      width: 100%;
+      color: $white;
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      resize: vertical;
+
+      &:focus {
+        outline: none;
+        border: 1px solid $gold;
+      }
+    }
+    &:nth-child(1) {
+      grid-column: 1/-1;
+      grid-row: 1/2;
+    }
+    &:nth-child(2) {
+      grid-column: 1/-1;
+      grid-row: 2/3;
+    }
+    &:nth-child(3) {
+      grid-column: 1/-1;
+      grid-row: 3/4;
+    }
+  }
+  &__form-btn {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    padding: 1em;
+    background: $gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: color 0.3s, background 0.3s;
+
+    &:hover,
+    &:focus {
+      outline: none;
+      background: none;
+      color: $gold;
+      border: 1px solid $gold;
+    }
+  }
+}
+
 //MEDIA
 @media (min-width: 576px) {
   .info {
@@ -491,6 +586,40 @@ h1.company-name {
       margin-bottom: 0;
     }
   }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+
+    img {
+      &:nth-child(odd) {
+        display: block;
+      }
+    }
+  }
+
+  .contact {
+    &__form {
+      gap: 30px;
+    }
+
+    &__form-box {
+      &:nth-child(1) {
+        grid-column: 1/4;
+        grid-row: 1/2;
+      }
+      &:nth-child(2) {
+        grid-column: 4/7;
+        grid-row: 1/2;
+      }
+      &:nth-child(3) {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+      }
+    }
+    &__form-btn {
+      grid-row: 3/4;
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -588,5 +717,10 @@ h1.company-name {
     &__text {
       font-size: 2.2rem;
     }
+  }
+
+  .gallery {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
   }
 }
