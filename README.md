@@ -1,3 +1,3 @@
-# GRID-Tibetan-music
+# Layout based on GRID- Topic of website: Tibetan-music
 
-[Tibetian music](https://karlasz.github.io/GRID-Tibetan-music/index)
+[Tibetian music website](https://karlasz.github.io/GRID-Tibetan-music/index)
