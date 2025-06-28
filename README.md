@@ -2,16 +2,15 @@
 Live demo: 
 [Tibetian music website](https://karlasz.github.io/GRID-Tibetan-music/index)
 
-A minimalistic interactive sound grid inspired by the calm, meditative atmosphere often associated with Tibetan aesthetics. Users can activate cells on a grid to create rhythmic patterns using synthesized tones generated in real time via the Web Audio API. The experience is designed to be soothing and visually clean, encouraging mindful interaction.
+A minimalistic interactive grid inspired by the calm, meditative atmosphere often associated with Tibetan aesthetics. The experience is designed to be soothing and visually clean, encouraging mindful interaction.
 
 ✨ Features
-Clickable sound grid that plays synthesized tones
 
 Simple and elegant visual design
 
 Inspired by meditation and ambient concepts
 
-Real-time sound generation (no audio files used)
+Animated icons
 
 Built with pure HTML, CSS, and JavaScript
 
@@ -21,8 +20,6 @@ HTML5
 CSS3
 
 JavaScript (Vanilla)
-
-Web Audio API
 
 ▶️ Getting Started
 To run the project locally:
