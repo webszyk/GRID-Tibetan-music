@@ -37,7 +37,8 @@ Przejdź do folderu projektu:
 
 cd GRID-Tibetan-music
 
-Otwórz plik index.html w przeglądarce.
+Otwórz plik index.html w przeglądarce
+lub url link [Tibetian music website](https://karlasz.github.io/GRID-Tibetan-music/index)
 
 Nie są wymagane żadne dodatkowe zależności ani konfiguracja.
 
@@ -49,8 +50,7 @@ Projekt jest kreatywną eksploracją rytmu i minimalistycznego designu. Nie opie
 
 # EN - Layout GRID Tibetan Music 🎶
 Live demo: 
-
-
+[Tibetian music website - > Click](https://karlasz.github.io/GRID-Tibetan-music/index)
 
 
 A minimalistic interactive grid inspired by the calm, meditative atmosphere often associated with Tibetan aesthetics. The experience is designed to be soothing and visually clean, encouraging mindful interaction.
