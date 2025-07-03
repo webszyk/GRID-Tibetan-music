@@ -1,7 +1,7 @@
 #Layout GRID Muzyka Tybetańska 🎶
 [Tibetian music website](https://karlasz.github.io/GRID-Tibetan-music/index)
 
-![poster-github-mockup-tibet](https://github.com/user-attachments/assets/ba3f5eff-6819-4853-8e26-87d6e148704f)
+![google](https://github.com/user-attachments/assets/71eaf6f8-105e-41b3-bb43-2a21c8b6fe15)
 
 
 
@@ -93,4 +93,5 @@ No additional setup or dependencies required.
 
 🧘 Inspiration
 This project is a creative exploration of interactive rhythm and minimalist design. It is not based on traditional Tibetan music, but rather loosely inspired by its meditative and peaceful associations.
-![mockuper-preview](https://github.com/user-attachments/assets/4e493b8a-5a6f-4763-9b1a-2b433f529a29)
+![github](https://github.com/user-attachments/assets/fc46a4fa-d3f5-4ede-9360-125360f71e0b)
+
