@@ -1,5 +1,5 @@
 #Layout GRID Muzyka Tybetańska 🎶
-[Tibetian music website](https://karlasz.github.io/GRID-Tibetan-music/index)
+[Tibetian music website](https://webszyk.github.io/GRID-Tibetan-music/index)
 
 ![google](https://github.com/user-attachments/assets/71eaf6f8-105e-41b3-bb43-2a21c8b6fe15)
 
