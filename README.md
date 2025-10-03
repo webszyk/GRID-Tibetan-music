@@ -1,6 +1,6 @@
 #Layout GRID Muzyka Tybetańska 🎶
 [Tibetian music website](https://webszyk.github.io/GRID-Tibetan-music/index)
-
+- wykonanie [webszyk.pl](webszyk.pl)
 ![google](https://github.com/user-attachments/assets/71eaf6f8-105e-41b3-bb43-2a21c8b6fe15)
 
 
@@ -95,3 +95,4 @@ No additional setup or dependencies required.
 This project is a creative exploration of interactive rhythm and minimalist design. It is not based on traditional Tibetan music, but rather loosely inspired by its meditative and peaceful associations.
 ![github](https://github.com/user-attachments/assets/fc46a4fa-d3f5-4ede-9360-125360f71e0b)
 
+- wykonanie [webszyk.pl](webszyk.pl)
